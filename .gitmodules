@@ -1,6 +1,0 @@
-[submodule "income-major"]
-	path = income-major
-	url = git@github.com:bsouthga/income-major.git
-[submodule "elite-name-major"]
-	path = elite-name-major
-	url = git@github.com:bsouthga/elite-name-major.git

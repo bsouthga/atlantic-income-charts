@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <style>
+    
+    body {
+      text-align: center;
+    }
+
+    h2 {
+      margin-top: 50px;
+    }
+
+    a {
+      color: #000;
+    }
+
+    #footer {
+      margin-bottom: 50px;
+    }
+
+    .chart-container iframe {
+      height: 700px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="one column">&nbsp;</div>
+      <div class="ten columns">
+        <h2>Income and College Major Choice</h2>
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="one column">&nbsp;</div>
+      <div class="ten columns">
+        <div id="income-major" class="chart-container"></div>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pym/0.4.3/pym.min.js"></script>
+        <script>
+            var pymParent = new pym.Parent('income-major', 'http://bsouthga.github.io/income-major/index.html', {});
+        </script>
+      </div>
+    </div>
+    <div class="row">
+      <div class="one column">&nbsp;</div>
+      <div class="ten columns">
+        <div id="elite-name-major" class="chart-container"></div>
+        <script>
+          var pymParent = new pym.Parent('elite-name-major', 'http://bsouthga.github.io/elite-name-major/index.html', {});
+        </script>
+      </div>
+    </div>
+    <div class="row">
+      <div class="one column">&nbsp;</div>
+      <div class="ten columns">
+        <hr>
+        <div id="footer">
+          <a href="http://bsou.io">Ben Southgate</a> | 2015 | <a href="http://github.com/bsouthga/atlantic-income-charts/">view source on Github</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-54214517-2', 'auto');
+    ga('send', 'pageview');
+  </script-->
+</body>
+</html>
