@@ -22,9 +22,6 @@
       margin-bottom: 50px;
     }
 
-    .chart-container iframe {
-      height: 700px;
-    }
   </style>
 </head>
 <body>
@@ -39,6 +36,7 @@
     <div class="row">
       <div class="one column">&nbsp;</div>
       <div class="ten columns">
+        <h4>Parent Income and Major Choice</h4>
         <div id="income-major" class="chart-container"></div>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pym/0.4.3/pym.min.js"></script>
         <script>
@@ -49,6 +47,7 @@
     <div class="row">
       <div class="one column">&nbsp;</div>
       <div class="ten columns">
+        <h4>"Elite" Names and College Major</h4>
         <div id="elite-name-major" class="chart-container"></div>
         <script>
           var pymParent = new pym.Parent('elite-name-major', 'http://bsouthga.github.io/elite-name-major/index.html', {});
@@ -58,6 +57,7 @@
     <div class="row">
       <div class="one column">&nbsp;</div>
       <div class="ten columns">
+        <h4>Expected Earnings</h4>
         <div id="earnings-from-majors" class="chart-container"></div>
         <script>
           var pymParent = new pym.Parent('earnings-from-majors', 'http://bsouthga.github.io/earnings-from-majors/index.html', {});
